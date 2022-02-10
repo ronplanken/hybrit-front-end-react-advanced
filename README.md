@@ -1,4 +1,4 @@
-# HybrIT Front-end testing workshop
+# HybrIT React Advanced
 
 Helpfull links:
 * https://testing-library.com/docs/react-testing-library/intro/
