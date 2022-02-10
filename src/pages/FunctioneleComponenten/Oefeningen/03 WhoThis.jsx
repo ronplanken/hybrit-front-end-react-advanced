@@ -9,14 +9,13 @@ export const WhoThis = () => {
     setName(event.target.value);
   };
 
-  React.useEffect(() => {
-    console.log("setLocalstorage");
-    localStorage.setItem('name', name);
-  });
+  /*
+  Voer hier een side effect toe die de naam in localstorage zet
+  */
 
   return (
     <Row>
-      <Col span={4}>
+      <Col span={8}>
         <Typography.Title level={5}>Who this?</Typography.Title>
         <Input type='text' value={name} onChange={handleChange} />
         <Divider />

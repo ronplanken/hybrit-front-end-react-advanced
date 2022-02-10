@@ -31,9 +31,6 @@ function App() {
           <Menu.Item key={'hooks'}>
             <Link to='/hooks'>02 Hooks</Link>
           </Menu.Item>
-          <Menu.Item key={'perf'}>
-            <Link to='/performance'>03 Performance</Link>
-          </Menu.Item>
         </Menu>
       </Header>
       <Content style={{ padding: '32px' }}>
